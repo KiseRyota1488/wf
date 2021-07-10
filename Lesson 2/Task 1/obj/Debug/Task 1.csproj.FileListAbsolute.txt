@@ -1,0 +1,13 @@
+F:\Repos\wf\Lesson 2\Task 1\bin\Debug\Task 1.exe.config
+F:\Repos\wf\Lesson 2\Task 1\bin\Debug\Task 1.exe
+F:\Repos\wf\Lesson 2\Task 1\bin\Debug\Task 1.pdb
+F:\Repos\wf\Lesson 2\Task 1\obj\Debug\Task 1.csprojAssemblyReference.cache
+F:\Repos\wf\Lesson 2\Task 1\obj\Debug\Task_1.Form1.resources
+F:\Repos\wf\Lesson 2\Task 1\obj\Debug\Task_1.Properties.Resources.resources
+F:\Repos\wf\Lesson 2\Task 1\obj\Debug\Task 1.csproj.GenerateResource.cache
+F:\Repos\wf\Lesson 2\Task 1\obj\Debug\Task 1.csproj.CoreCompileInputs.cache
+F:\Repos\wf\Lesson 2\Task 1\obj\Debug\Task 1.exe
+F:\Repos\wf\Lesson 2\Task 1\obj\Debug\Task 1.pdb
+F:\Repos\wf\Lesson 2\Task 1\bin\Debug\Newtonsoft.Json.dll
+F:\Repos\wf\Lesson 2\Task 1\bin\Debug\Newtonsoft.Json.xml
+F:\Repos\wf\Lesson 2\Task 1\obj\Debug\Task 1.csproj.CopyComplete
