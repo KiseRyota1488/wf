@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Drawing;
-using System.Threading;
 using System.Windows.Forms;
 
 namespace WinFormsApp1
@@ -37,37 +36,30 @@ namespace WinFormsApp1
 
             while (!moveHappened)
             {
-                int x = rnd.Next(Form1.ActiveForm.Width);
-                int y = rnd.Next(Form1.ActiveForm.Height);
+                var wdt = ClientSize.Width;
+                var hght = ClientSize.Height;
 
-                if ((x - label1.Width <= 0 && x <= Form1.ActiveForm.Width - label1.Width) && (y > 0 && y < Form1.ActiveForm.Height - 6))
+                int x = rnd.Next(wdt);
+                int y = rnd.Next(hght);
+
+                if ((x - label1.Width <= 0 && x <= wdt - label1.Width) && (y > 0 && y < hght - 6))
                 {
-                    if (y >= Form1.ActiveForm.Height - 55)
-                        y = Form1.ActiveForm.Height - 55;
-
                     this.label1.Location = new Point(x, y);
                     moveHappened = true;
                 }
-
-
             }
 
             int chooseBtn = rnd.Next(2);
             int opacity = rnd.Next(256);
-            var color = this.BackColor;
-
 
             if (chooseBtn == 0)
             {
-                color = button1.BackColor;
-                this.button1.BackColor = Color.FromArgb(opacity, color);
+                this.button1.BackColor = Color.FromArgb(opacity, button1.BackColor);
             }
             else
             {
-                color = button2.BackColor;
-                this.button2.BackColor = Color.FromArgb(opacity, color);
+                this.button2.BackColor = Color.FromArgb(opacity, button2.BackColor);
             }
-
         }
     }
 }
